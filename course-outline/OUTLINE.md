@@ -2,11 +2,13 @@
 
 Hierarchical outline aligned with the official CKA domains. For times, labs, and notes see [`CURRICULUM.md`](CURRICULUM.md).
 
+**Exam:** The CKA is a **2-hour**, **hands-on lab** exam (terminal and cluster tasks only). There is **no multiple-choice** format.
+
 ---
 
 ## Prerequisites
 
-- Lab environment and node access
+- Lab environment and node access (provisioned as part of **course kickoff** / `lab-setup/`)
 - Container image basics
 - First contact with the cluster API (`kubectl`, contexts)
 - Optional: multi-service local stack (Docker Compose)
@@ -120,6 +122,10 @@ Hierarchical outline aligned with the official CKA domains. For times, labs, and
 
 ## 6. Exam logistics and timed practice
 
+- Exam conditions (align course drills with the real test)
+  - **Duration:** 2 hours total
+  - **Format:** hands-on / performance-based tasks only (no multiple choice)
+  - **Lab environment:** Use the **course-provided clusters and terminals**, set up at the **start of the course** (see `lab-setup/` in the lab pack); all practice is in that environment, in the same hands-on style as the real exam (the official exam uses CNCF’s own delivery environment, not this lab)
 - Documentation bookmarks and allowed references
 - Shell aliases and efficiency
-- Timeboxing and verification commands
+- Timeboxing and verification commands (practice finishing tasks under ~2h-style pressure)

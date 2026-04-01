@@ -3,6 +3,8 @@
 **Total: 32 hours** (round suggested minutes to fit your session lengths).  
 **Weights** are the usual CKA split; hours are approximate shares of 32h.
 
+**CKA exam format:** The real exam is **2 hours long**, **hands-on only** (terminal + live cluster tasks). It is **not** multiple choice; every scored item is practical. Train with timed break/fix labs so the pace matches a **2-hour** performance exam. **Course practice** runs on the **lab environment built at course start** (`lab-setup/`); that is separate from CNCF’s exam delivery but matches hands-on workflow.
+
 | Domain | Exam weight | Course hours (guide) |
 |--------|-------------|----------------------|
 | Cluster Architecture, Installation & Configuration | 25% | **8h** |
@@ -105,8 +107,11 @@
 
 ## Capstone: Exam logistics & timed practice (**1h**)
 
+Mirror the real test: **2-hour** window, **hands-on tasks only** (no MCQ). Use this block for procedure, not for theory quizzes.
+
 | Topic | Lab mapping |
 |-------|-------------|
+| Exam format recap (2h, performance-based, terminal-only) | — |
 | Doc bookmarks, aliases, timeboxing | Any 2–3 short break/fix labs drawn from **`d3_...`**, **`d5_...`**, **`d6_...`** |
 | Verify fixes with explicit `kubectl` checks | Same |
 

@@ -2,6 +2,12 @@
 
 This folder holds a **32-hour** agenda built from the **official CNCF CKA exam domains and skills**, with **hands-on labs** mapped to the common **CKA lab pack** directory layout (`d0_…` through `d7_…`, `lab-setup/`).
 
+## CKA exam format
+
+The certification exam is **2 hours**, **performance-based**, and **hands-on in a live terminal** (solve tasks on a real cluster). There are **no multiple-choice** or theory-only sections—every scored item is practical work. Details and policies are on the [CNCF CKA page](https://www.cncf.io/certification/cka/).
+
+Hands-on work in **this course** uses a **lab environment you stand up at the beginning** (see `lab-setup/` in your lab pack)—not CNCF’s live exam environment, but the same kind of terminal-and-cluster tasks.
+
 ## Canonical syllabus
 
 Always reconcile wording with the current PDF:
